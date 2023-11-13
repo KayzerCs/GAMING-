@@ -1,0 +1,1560 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* écriture */
+    --color1: rgb(240, 236, 236);
+    /* case */
+    --color2: rgba(202, 196, 196, 0.336);
+    --color3: black;
+    /* transparent */
+    --color4: rgba(0, 0, 0, 0);
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+body {
+    background: rgb(19, 2, 19);
+    color: var(--color1);
+}
+
+
+
+nav {
+    background: rgb(19, 2, 19);
+    display: grid;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 92%;
+    left: 0%;
+    user-select: none;
+}
+
+nav img {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    bottom: 0%;
+    left: 1%;
+    height: 70px;
+    align-items: left;
+}
+
+nav h2 {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    bottom: 0%;
+    left: 6%;
+
+}
+
+.container-nav-1 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 10%;
+    right: 63%;
+    bottom: 50%;
+    left: 29%;
+}
+
+.container-nav-1 button {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(240, 236, 236);
+    cursor: pointer;
+}
+
+.container-nav-1 button:hover {
+    letter-spacing: 1px;
+}
+
+.container-nav-2 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 10%;
+    right: 53%;
+    bottom: 50%;
+    left: 37.5%;
+}
+
+.container-nav-2 button {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(240, 236, 236);
+    cursor: pointer;
+}
+
+.container-nav-2 button:hover {
+    letter-spacing: 1px;
+}
+
+.container-nav-3 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    bottom: 50%;
+    left: 47.5%;
+}
+
+.container-nav-3 button {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(240, 236, 236);
+    cursor: pointer;
+}
+
+.container-nav-3 button:hover {
+    letter-spacing: 1px;
+}
+
+.container-nav-4 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    bottom: 50%;
+    left: 60.5%;
+}
+
+.container-nav-4 button {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(240, 236, 236);
+    cursor: pointer;
+}
+
+.container-nav-4 button:hover {
+    letter-spacing: 1px;
+}
+
+.container-nav-icon-1 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 25%;
+    right: 5.5%;
+    bottom: 10%;
+    left: 90.5%;
+}
+
+.container-nav-icon-1 button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-nav-icon-1 button:hover {
+    letter-spacing: 5px;
+}
+
+.container-nav-icon-2 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    bottom: 10%;
+    left: 95%;
+}
+
+.container-nav-icon-2 button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-nav-icon-2 button:hover {
+    letter-spacing: 5px;
+}
+
+.nav-img {
+    background: url(./img/mw3-cod.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    height: 400px;
+    min-width: 100vh;
+}
+
+
+header {
+    background: rgb(19, 2, 19);
+    display: grid;
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    bottom: 44%;
+    left: 0%;
+}
+
+.glossy {
+    background: rgba(209, 205, 205, 0.568);
+    border-radius: 35px;
+    position: absolute;
+    top: -6%;
+    right: 28%;
+    bottom: 93%;
+    left: 28%;
+    backdrop-filter: blur(8px);
+}
+
+.link {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: -10%;
+    right: 28%;
+    bottom: 88%;
+    left: 30%;
+    user-select: none;
+}
+
+.container-link-1 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 25%;
+    right: 80%;
+    bottom: 28%;
+    left: 0%;
+}
+
+.container-link-1 button {
+    background: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    transform: 0.2s;
+}
+
+.container-link-1 button:hover {
+    color: var(--color1);
+}
+
+.container-link-2 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 25%;
+    right: 46%;
+    bottom: 28%;
+    left: 18%;
+}
+
+.container-link-2 button {
+    background: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    transform: 0.2s;
+}
+
+.container-link-2 button:hover {
+    color: var(--color1);
+}
+
+.container-link-3 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 25%;
+    right: 23%;
+    bottom: 28%;
+    left: 54%;
+}
+
+.container-link-3 button {
+    background: rgba(255, 255, 255, 0);
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    transform: 0.2s;
+}
+
+.container-link-3 button:hover {
+    color: var(--color1);
+}
+
+.research {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: -5%;
+    right: 29%;
+    bottom: 94%;
+    left: 63%;
+}
+
+.btn-research {
+    background: rgba(176, 2, 2, 0.623);
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-research:hover {
+    background-color: rgb(185, 22, 24);
+}
+
+.mw3 {
+    background: rgba(131, 33, 33, 0.459);
+    backdrop-filter: blur(8px);
+    box-shadow: 6px -5px 12px 3px #fb0000;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    bottom: 25%;
+    left: 2%;
+}
+
+.mw3-title-1 {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 11%;
+    right: 2%;
+    bottom: 58%;
+    left: 2%;
+}
+
+.mw3-title-2 {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 43%;
+    right: 2%;
+    bottom: 35%;
+    left: 2%;
+}
+
+.mw3-price {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 68%;
+    right: 2%;
+    bottom: 3%;
+    left: 2%;
+    font-weight: bold;
+}
+
+.main {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 51.8%;
+    right: 0%;
+    bottom: 1%;
+    left: 0%;
+
+}
+
+.main-title {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 4.3%;
+    right: 1%;
+    bottom: 85%;
+    left: 1%
+}
+
+.main-icon {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 60%;
+    bottom: 88%;
+    left: 18%;
+}
+
+.jeux {
+    background: rgb(76, 65, 92);
+    display: flex;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    bottom: -120%;
+    left: 0%;
+}
+
+.box-gta {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 74%;
+    bottom: 76%;
+    left: 2%;
+}
+
+.gta {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.gta img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-gta span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-payday {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 41.5%;
+    bottom: 76%;
+    left: 35%;
+}
+
+.payday {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.payday img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-payday span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-fifa {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 7.7%;
+    bottom: 76%;
+    left: 69%;
+}
+
+.fifa {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.fifa img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-fifa span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-wow {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 33.8%;
+    right: 74%;
+    bottom: 45%;
+    left: 2%;
+}
+
+.wow {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.wow img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-wow span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-valo {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 33.8%;
+    right: 34%;
+    bottom: 45%;
+    left: 36%;
+}
+
+.valo {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.valo img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-valo span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-farcry {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 33.8%;
+    right: 0%;
+    bottom: 45%;
+    left: 69%;
+}
+
+.farcry {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 3%;
+}
+
+.farcry img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-farcry span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 4%;
+}
+
+.box-cyber {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 66%;
+    right: 66%;
+    bottom: 12%;
+    left: 2%;
+}
+
+.cyber {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.cyber img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-cyber span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-minecraft {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 66%;
+    right: 34%;
+    bottom: 12%;
+    left: 36%;
+}
+
+.minecraft {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.minecraft img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-minecraft span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-lol {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 66%;
+    right: 0%;
+    bottom: 12%;
+    left: 69%;
+}
+
+.lol {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.lol img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-lol span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.infos {
+    background: rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    top: 151.5%;
+    right: 0%;
+    bottom: -62%;
+    left: 0%;
+}
+
+.container {
+    background: var(--color4);
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 29% 6% 25% 6% 32%;
+}
+
+.container-1 .icon-download {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 91%;
+    bottom: 50%;
+    left: 9%;
+}
+
+.container-1 .title-download {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    bottom: 55%;
+    left: 13%;
+}
+
+.container-1 .text-download {
+    background: var(--color4);
+    color: rgb(143, 137, 137);
+    display: flex;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    bottom: 35%;
+    left: 13%;
+}
+
+.container-2 .cut-1 {
+    clip-path: polygon(83% 13%, 85% 14%, 41% 88%, 38% 88%);
+    background: rgb(63, 62, 62);
+    width: 100px;
+    height: 100px;
+}
+
+.container-3 .icon-sav {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 62%;
+    bottom: 50%;
+    left: 38%;
+}
+
+.container-3 .title-sav {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    bottom: 55%;
+    left: 41.5%;
+}
+
+.container-3 .text-sav {
+    background: var(--color4);
+    color: rgb(143, 137, 137);
+    display: flex;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    bottom: 35%;
+    left: 41.5%;
+}
+
+.container-4 .cut-2 {
+    clip-path: polygon(83% 13%, 85% 14%, 41% 88%, 38% 88%);
+    background: rgb(63, 62, 62);
+    width: 100px;
+    height: 100px;
+}
+
+.container-5 .icon-reviews {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 33%;
+    bottom: 50%;
+    left: 67%;
+}
+
+.container-5 .title-reviews {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 12%;
+    right: 0%;
+    bottom: 62%;
+    left: 71%;
+}
+
+.container-5 .text-reviews {
+    background: var(--color4);
+    color: rgb(143, 137, 137);
+    display: flex;
+    position: absolute;
+    top: 39%;
+    right: 0%;
+    bottom: 40%;
+    left: 71%;
+}
+
+.container-star {
+    background: var(--color4);
+    color: rgb(143, 137, 137);
+    display: grid;
+    grid-template-columns: 18% 2% 18% 2% 18% 2% 18% 2% 18%;
+    position: absolute;
+    top: 68%;
+    right: 21%;
+    bottom: 8%;
+    left: 71%;
+}
+
+.container-star-1 {
+    background: rgb(26, 110, 26);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-star-2 {
+    background: black;
+}
+
+.container-star-3 {
+    background: rgb(26, 110, 26);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-star-4 {
+    background: black;
+}
+
+.container-star-5 {
+    background: rgb(26, 110, 26);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-star-6 {
+    background: black;
+}
+
+.container-star-7 {
+    background: rgb(26, 110, 26);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-star-8 {
+    background: black;
+}
+
+.container-star-9 {
+    background: rgb(26, 110, 26);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.trend {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 162%;
+    right: 0%;
+    bottom: -132%;
+    left: 0%;
+}
+
+.title-trend {
+    background-color: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    bottom: 91%;
+    left: 1%;
+}
+
+.icon-trend {
+    background-color: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    bottom: 91%;
+    left: 14.5%;
+}
+
+.jeux-trend {
+    background: rgb(76, 65, 92);
+    display: flex;
+    position: absolute;
+    top: 9%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+
+}
+
+.box-beta {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 3%;
+    right: 78%;
+    bottom: 65%;
+    left: 2%;
+}
+
+.beta {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.beta img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-beta span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-assassin {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 3%;
+    right: 38%;
+    bottom: 65%;
+    left: 36%;
+}
+
+.assassin {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.assassin img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-assassin span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-hogwart {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    bottom: 65%;
+    left: 69%;
+}
+
+.hogwart {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.hogwart img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-hogwart span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-starfield {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 51%;
+    right: 78%;
+    bottom: 17%;
+    left: 2%;
+}
+
+.starfield {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.starfield img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-starfield span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-fortnite {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 51%;
+    right: 41%;
+    bottom: 17%;
+    left: 36.5%;
+}
+
+.fortnite {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.fortnite img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-fortnite span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.box-diablo {
+    background: var(--color4);
+    display: flex;
+    position: absolute;
+    top: 51%;
+    right: 0%;
+    bottom: 17%;
+    left: 69%;
+}
+
+.diablo {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.diablo img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 11px 15px #000000;
+}
+
+.box-diablo span {
+    display: flex;
+    position: absolute;
+    top: 103%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.subscribe {
+    background: rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    top: 228%;
+    right: 0%;
+    bottom: -155.5%;
+    left: 0%;
+}
+
+.container-sub-1 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 63%;
+    left: 0%;
+}
+
+.icon-sub {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-sub {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 37%;
+    right: 0%;
+    bottom: 50%;
+    left: 0%;
+}
+
+.title-sub h3 {
+    color: rgb(238, 234, 234);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-sub {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    bottom: 40%;
+    left: 0%;
+}
+
+.text-sub span {
+    color: rgb(114, 110, 110);
+    display: grid;
+    justify-content: center;
+}
+
+.btn-container-sub {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 64%;
+    right: 44%;
+    bottom: 13%;
+    left: 44.5%;
+}
+
+.btn-sub {
+    border-radius: 15px;
+    color: rgb(230, 226, 226);
+    background: rgba(170, 137, 211, 0.445);
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+}
+
+.btn-sub:hover {
+    letter-spacing: 2px;
+    background: rgb(93, 36, 163);
+}
+
+.footer {
+    background: rgb(19, 2, 19);
+    display: grid;
+    position: absolute;
+    top: 255.5%;
+    right: 0%;
+    bottom: -193%;
+    left: 0%;
+}
+
+/********************Réglage couleurs**********************/
+
+.container-footer {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 0%;
+    right: 7%;
+    bottom: 0%;
+    left: 7%;
+}
+
+.container-footer-img {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 4%;
+    right: 87.5%;
+    bottom: 58%;
+    left: 1.8%;
+}
+
+.container-footer-img img {
+    height: 130px;
+}
+
+.container-footer-1 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 10%;
+    right: 73%;
+    bottom: 75%;
+    left: 14%;
+}
+
+.container-footer-1 h2 {
+    display: grid;
+    align-items: center;
+}
+
+.container-footer-3 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 6%;
+    right: 49%;
+    bottom: 27%;
+    left: 28%;
+}
+
+.container-btn-footer-1 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 85%;
+    left: 0%;
+}
+
+.container-btn-footer-1 button {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(111, 107, 107);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-btn-footer-1 button:hover {
+    color: var(--color1);
+}
+
+.container-btn-footer-2 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    bottom: 70%;
+    left: 0%;
+}
+
+.container-btn-footer-2 button {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(111, 107, 107);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-btn-footer-2 button:hover {
+    color: var(--color1);
+}
+
+.container-btn-footer-3 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    bottom: 55%;
+    left: 0%;
+}
+
+.container-btn-footer-3 button {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(111, 107, 107);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-btn-footer-3 button:hover {
+    color: var(--color1);
+}
+
+.container-btn-footer-4 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 45%;
+    right: 0%;
+    bottom: 40%;
+    left: 0%;
+}
+
+.container-btn-footer-4 button {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(111, 107, 107);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-btn-footer-4 button:hover {
+    color: var(--color1);
+}
+
+.container-btn-footer-5 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    bottom: 24%;
+    left: 0%;
+}
+
+.container-btn-footer-5 button {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(111, 107, 107);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-btn-footer-5 button:hover {
+    color: var(--color1);
+}
+
+.container-btn-footer-6 {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 76%;
+    right: 0%;
+    bottom: 8%;
+    left: 0%;
+}
+
+.container-btn-footer-6 button {
+    background: rgba(255, 255, 255, 0);
+    color: rgb(111, 107, 107);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-btn-footer-6 button:hover {
+    color: var(--color1);
+}
+
+.btn-discord {
+    background: rgba(88, 101, 242, .2);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 39%;
+    bottom: 75%;
+    left: 55%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.btn-discord:hover {
+    background: rgba(19, 32, 175, 0.733);
+}
+
+.btn-twitter {
+    background: rgba(0, 172, 237, .2);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 0%;
+    bottom: 75%;
+    left: 62%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.btn-twitter:hover {
+    background: rgba(0, 174, 237, 0.37);
+}
+
+.btn-insta {
+    background: rgba(189, 138, 119, .2);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 0%;
+    bottom: 75%;
+    left: 69%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.btn-insta:hover {
+    background: rgba(189, 138, 119, 0.493);
+}
+
+.btn-fb {
+    background: rgba(24, 119, 242, .2);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 0%;
+    bottom: 75%;
+    left: 76%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.btn-fb:hover {
+    background: rgba(7, 57, 122, 0.849);
+}
+
+.btn-ytb {
+    background: rgba(226, 43, 38, .2);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 0%;
+    bottom: 75%;
+    left: 83%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.btn-ytb:hover {
+    background: rgba(122, 19, 16, 0.74);
+}
+
+.btn-twitch {
+    background: rgba(152, 97, 255, .2);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 5%;
+    right: 0%;
+    bottom: 75%;
+    left: 90%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+}
+
+.btn-twitch:hover {
+    background: rgba(64, 25, 136, 0.795);
+}
+
+.container-ligne {
+    background: var(--color4);
+    display: grid;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    bottom: 25%;
+    left: 0%;
+}
+
+.container-ligne .cut {
+    clip-path: polygon(100% 50%, 100% 56%, 0 55%, 0 49%);
+    background: rgb(63, 62, 62);
+    height: 20px;
+    width: 100%;
+    
+}
